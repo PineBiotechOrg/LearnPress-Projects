@@ -136,7 +136,7 @@ class LP_Addon_Projects extends LP_Addon {
 		// add_filter( 'learn_press_locate_template',					array( $this, 'order_review' ), 10, 3 );
 		//add_filter( 'learn_press_locate_template',					array( $this, 'single_project' ), 10, 3 );
 		add_filter( 'thim_core_list_sidebar',						array( $this, 'register_projects_sidebar' ) );
-		add_filter( 'learn_press_get_return_url',					array( $this, 'lp_project_order_received' ), 10, 2 );
+		// add_filter( 'learn_press_get_return_url',					array( $this, 'lp_project_order_received' ), 10, 2 );
 		add_filter( 'thim_default_login_redirect', 					array( $this, 'redirect_back_to_project' ), 10 );
 		add_filter( 'learn-press/query/user-purchased-courses', 	array( $this, 'filter_out_projects_from_bp_profile_courses' ), 10, 3 );
 		// add_filter( 'learn_press_get_template_part',						array( $this, 'project_features' ), 10, 3 );
